@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    position: absolute;
+
+    /*animation property */
+    animation-name: sudhir;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes sudhir {
+    0%{
+        left: 0%;
+        top: 0%;
+        background-color: aqua;
+    }
+    25%{
+        left: 50%;
+        top: 0%;
+        background-color: darkgreen;
+    }
+    50%{
+        left: 50%;
+        top: 0%;
+        background-color: mediumvioletred;
+    }
+    75%{
+        left: 0%;
+        top: 50%;
+        background-color: tomato;
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+        background-color: burlywood;
+    }
+}
